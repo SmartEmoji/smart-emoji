@@ -1,0 +1,23 @@
+$font-stack: 'Poppins', sans-serif;
+$background-color: #1fa2ff;
+$text-color: #ffffff;
+
+.Button {
+  background: $background-color;
+  border-radius: 2px;
+  color: $text-color;
+  cursor: pointer;
+  font-family: $font-stack;
+  margin: 20px auto;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.Button:hover {
+  opacity: 0.8;
+}
+
+.Button:active {
+  opacity: 0.7;
+}
