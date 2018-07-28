@@ -4,8 +4,11 @@
   "description": "A browser extension for shorthand emoji typing",
   "main": "src/index.js",
   "scripts": {
-    "build": "parcel build src/index.html --public-url ./",
-    "watch": "parcel -p 8080 watch src/index.html"
+    "clean": "rm -rf dist",
+    "build": "parcel build src/popup.html",
+    "watch": "parcel -p 8080 watch src/popup.html",
+    "deploy": "./deploy.sh",
+    "lint": "eslint src/"
   },
   "author": "Edwin Zhang and Nikhil Gupta",
   "dependencies": {
