@@ -13,7 +13,7 @@ A browser extension to allow for shorthand 👌 emoji typing 🔥
 * Run `./deploy.sh`
 * Load the `dist` folder as an unpacked extension in Chrome
 
-# Licence
-This software is available under MIT License - see the [LICENSE.md](https://github.com/edwinzhng/smart-emoji/blob/master/LICENSE.md) file for details
+## Licence
+This software is available under the MIT License - see the [LICENSE.md](https://github.com/edwinzhng/smart-emoji/blob/master/LICENSE.md) file for details
 
 
