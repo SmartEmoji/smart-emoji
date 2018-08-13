@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "parcel build src/popup.html",
-    "watch": "parcel -p 8080 watch src/popup.html",
+    "start": "parcel -p 8080 watch src/popup.html",
     "deploy": "./deploy.sh",
     "lint": "eslint src/"
   },
@@ -24,8 +24,10 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "eslint": "^5.0.1",
-    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "parcel-bundler": "^1.9.7",
     "parcel-plugin-eslint": "^1.0.4"
   }
